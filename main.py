@@ -41,8 +41,8 @@ logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(
 
 
 # Bot credentials from environment variables (Render compatible)
-API_ID = int(os.environ.get("API_ID", 24473318))
-API_HASH = os.environ.get("API_HASH", "e7dd0576c5ac0ff8f90971d6bb04c8f5")
+API_ID = int(os.environ.get("API_ID", 21567814))
+API_HASH = os.environ.get("API_HASH", "cd7dc5431d449fd795683c550d7bfb7e")
 BOT_TOKEN = os.environ.get("BOT_TOKEN", "8034069514:AAHUBpzSCq41jPwsJkDbXuEoVC_yCxzyuw0")
 
 # Initialize Bot Globally (IMPORTANT FIX)
@@ -60,11 +60,35 @@ def run_flask():
     
 
 image_list = [
-"https://graph.org/file/8b1f4146a8d6b43e5b2bc-be490579da043504d5.jpg",
-"https://graph.org/file/b75dab2b3f7eaff612391-282aa53538fd3198d4.jpg",
-"https://graph.org/file/38de0b45dd9144e524a33-0205892dd05593774b.jpg",
-"https://graph.org/file/be39f0eebb9b66d7d6bc9-59af2f46a4a8c510b7.jpg",
-"https://graph.org/file/8b7e3d10e362a2850ba0a-f7c7c46e9f4f50b10b.jpg",
+    "https://i.ibb.co/0p3pmkwn/Angel.jpg"
+    "https://i.ibb.co/KjNBPrtk/STRANGER-BOY.jpg",
+    "https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg",
+    "https://i.ibb.co/HffWwnB7/STRANGER-BOY.jpg",
+    "https://i.ibb.co/cV4W8BQ/STRANGER-BOY.jpg",
+    "https://i.ibb.co/5NgcXjR/STRANGER-BOY.jpg",
+    "https://i.ibb.co/HLFvQJd6/STRANGER-BOY.jpg",
+    "https://i.ibb.co/dsw2rr27/STRANGER-BOY.jpg",
+    "https://i.ibb.co/mCbS89dv/STRANGER-BOY.jpg",
+    "https://i.ibb.co/CsTdxj4r/STRANGER-BOY.jpg",
+    "https://i.ibb.co/GXrkX7c/STRANGER-BOY.jpg",
+    "https://i.ibb.co/KpbdvnMG/STRANGER-BOY.jpg",
+    "https://i.ibb.co/CNRcXKZ/STRANGER-BOY.jpg",
+    "https://i.ibb.co/CpCGzDfz/STRANGER-BOY.jpg",
+"https://i.ibb.co/xSr3Pt8s/photo-2025-04-23-09-49-45-7496450714600734724.jpg",
+"https://i.ibb.co/7J3WRJb3/photo-2025-04-14-13-58-22-7496450710305767480.jpg",
+"https://i.ibb.co/sd1BMMJR/photo-2025-04-14-13-58-25-7496450706010800144.jpg",
+"https://i.ibb.co/VY5Bb44T/photo-2025-04-23-09-49-54-7496450701715832900.jpg",
+"https://i.ibb.co/V8MRDLw/photo-2025-04-23-09-49-57-7496450693125898268.jpg",
+    "https://i.ibb.co/bg9w4H3c/photo-2025-04-23-09-50-06-7496450663061127228.jpg",
+    "https://i.ibb.co/zHDXdtCk/photo-2025-04-14-13-58-31-7496450675946029068.jpg",
+    "https://i.ibb.co/200yz6vQ/photo-2025-04-14-13-58-28-7496450658766159936.jpg",
+    "https://i.ibb.co/DgRpQhw6/photo-2025-04-30-11-42-22-7499070258104238100.jpg",
+    "https://i.ibb.co/Swd0WDW9/photo-2025-05-09-20-09-39-7502540716233457668.jpg",
+    "https://i.ibb.co/hxQ73ZYw/photo-2025-04-12-18-46-28-7492500010408345604.jpg",
+    "https://i.ibb.co/jvQfvnCs/photo-2025-04-12-18-46-58-7492500195091939332.jpg",
+    "https://i.ibb.co/1YjMPGgZ/photo-2025-04-12-18-52-23-7492501513646899244.jpg",
+    "https://i.ibb.co/dwc7VnGQ/photo-2025-04-17-12-32-29-7494259035739258904.jpg",
+    
 ]
 print(4321)
 
@@ -89,7 +113,7 @@ async def start(bot, message):
 
   await message.reply_photo(
     photo=random_image_url,
-    caption="**PLEASE👇PRESS👇HERE**",
+    caption="**PLEASE👇 Long PRESS👇HERE Mr STRANGERBOY**",
     quote=True,
     reply_markup=reply_markup
   )
