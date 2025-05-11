@@ -99,7 +99,7 @@ async def start(bot, message):
 
   keyboard = [
       [
-      InlineKeyboardButton("STRANGER BOYS", callback_data="https://t.me/+aBB53vou0Z5hZWI1")
+      InlineKeyboardButton("🧧 STRANGER BOYS 🧧", callback_data="https://t.me/+aBB53vou0Z5hZWI1")
     ],
       [
       InlineKeyboardButton("🌸 🎉Physics Wallah🎉 BOYS 🌸 ", callback_data="pwwp")
@@ -110,6 +110,9 @@ async def start(bot, message):
     [
       InlineKeyboardButton("🌷 Appx समय यात्री 🌷", callback_data="appxwp")
     ]
+   [
+      InlineKeyboardButton("✨️ समय यात्री ✨️ ", callback_data="https://t.me/+jjYZLW4sTmIwOTdl")
+    ],
   ]
 
   reply_markup = InlineKeyboardMarkup(keyboard)
