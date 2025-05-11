@@ -119,7 +119,7 @@ async def start(bot, message):
 
   await message.reply_photo(
     photo=random_image_url,
-    caption="**❖────────[『 WELCOME STRANGER 』](https://i.ibb.co/0p3pmkwn/Angel.jpg)─────────❖**",
+    caption="**❖────[『 WELCOME STRANGER 』](https://i.ibb.co/0p3pmkwn/Angel.jpg)────❖**",
     quote=True,
     reply_markup=reply_markup
   )
