@@ -99,13 +99,13 @@ async def start(bot, message):
 
   keyboard = [
     [
-      InlineKeyboardButton("🚀 Physics Wallah without Purchase 🚀", callback_data="pwwp")
+      InlineKeyboardButton("🌸 🎉Physics Wallah🎉 BOYS 🌸 ", callback_data="pwwp")
     ],
     [
-      InlineKeyboardButton("📘 Classplus without Purchase 📘", callback_data="cpwp")
+      InlineKeyboardButton("🌼 Classplus STRANGER 🌼", callback_data="cpwp")
     ],
     [
-      InlineKeyboardButton("📒 Appx Without Purchase 📒", callback_data="appxwp")
+      InlineKeyboardButton("🌷 Appx समय यात्री 🌷", callback_data="appxwp")
     ]
   ]
 
@@ -113,7 +113,7 @@ async def start(bot, message):
 
   await message.reply_photo(
     photo=random_image_url,
-    caption="**PLEASE👇 Long PRESS👇HERE Mr STRANGERBOY**",
+    caption="**ꞏ⸻┅᪵┅᪵┅᪵स्ट्रेंजर┅᪵┅᪵┅᪵⸻ꞏ **",
     quote=True,
     reply_markup=reply_markup
   )
