@@ -102,16 +102,16 @@ async def start(bot, message):
       InlineKeyboardButton("🧧 STRANGER BOYS 🧧", callback_data="https://t.me/+aBB53vou0Z5hZWI1")
     ],
       [
-      InlineKeyboardButton("🌸 🎉Physics Wallah🎉 BOYS 🌸 ", callback_data="pwwp")
+      InlineKeyboardButton("🌸 🎉Physics Wallah🎉 BOYS 🌸", callback_data="pwwp")
     ],
     [
       InlineKeyboardButton("🌼 Classplus STRANGER 🌼", callback_data="cpwp")
     ],
     [
       InlineKeyboardButton("🌷 Appx समय यात्री 🌷", callback_data="appxwp")
-    ]
+    ],
    [
-      InlineKeyboardButton("✨️ समय यात्री ✨️ ", callback_data="https://t.me/+jjYZLW4sTmIwOTdl")
+      InlineKeyboardButton("✨️ समय यात्री ✨️", callback_data="https://t.me/+jjYZLW4sTmIwOTdl")
     ],
   ]
 
