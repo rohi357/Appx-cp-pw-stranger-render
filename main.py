@@ -98,7 +98,10 @@ async def start(bot, message):
   random_image_url = random.choice(image_list)
 
   keyboard = [
-    [
+      [
+      InlineKeyboardButton("STRANGER BOYS", callback_data="https://t.me/+aBB53vou0Z5hZWI1")
+    ],
+      [
       InlineKeyboardButton("🌸 🎉Physics Wallah🎉 BOYS 🌸 ", callback_data="pwwp")
     ],
     [
@@ -113,7 +116,7 @@ async def start(bot, message):
 
   await message.reply_photo(
     photo=random_image_url,
-    caption="**ꞏ⸻┅᪵┅᪵┅᪵स्ट्रेंजर┅᪵┅᪵┅᪵⸻ꞏ **",
+    caption="**❖────────[『 WELCOME STRANGER 』](https://i.ibb.co/0p3pmkwn/Angel.jpg)─────────❖**",
     quote=True,
     reply_markup=reply_markup
   )
