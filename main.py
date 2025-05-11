@@ -99,7 +99,7 @@ async def start(bot, message):
 
   keyboard = [
       [
-      InlineKeyboardButton("🧧 STRANGER BOYS 🧧", callback_data="https://t.me/+aBB53vou0Z5hZWI1")
+      InlineKeyboardButton("🧧 STRANGER BOYS 🧧", url="https://t.me/+aBB53vou0Z5hZWI1")
     ],
       [
       InlineKeyboardButton("🌸 🎉Physics Wallah🎉 BOYS 🌸", callback_data="pwwp")
@@ -111,10 +111,35 @@ async def start(bot, message):
       InlineKeyboardButton("🌷 Appx समय यात्री 🌷", callback_data="appxwp")
     ],
    [
-      InlineKeyboardButton("✨️ समय यात्री ✨️", callback_data="https://t.me/+jjYZLW4sTmIwOTdl")
+      InlineKeyboardButton("✨️ समय यात्री ✨️", url="https://t.me/+jjYZLW4sTmIwOTdl")
     ],
   ]
+keyboard = InlineKeyboardMarkup(
+    [
+        [
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Strangerboy27_bot_strangerboy"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+EU-tiwyLZBMzY2Jl"),
+        ],
+        [
+            InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/hjvvgi"),
+        ],
+    ]
+)
 
+# Inline keyboard for busy status
+Busy = InlineKeyboardMarkup(
+    [
+        [
+            InlineKeyboardButton(text="📞 Contact", url="https://t.me/Strangerboy27_bot_strangerboy"),
+            InlineKeyboardButton(text="🛠️ Help", url="https://t.me/+jjYZLW4sTmIwOTdl"),
+        ],
+        [
+            InlineKeyboardButton(text="🪄 Updates Channel", url="https://t.me/+aBB53vou0Z5hZWI1"),
+        ],
+    ]
+)
+
+     
   reply_markup = InlineKeyboardMarkup(keyboard)
 
   await message.reply_photo(
